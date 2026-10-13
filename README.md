@@ -45,6 +45,14 @@ Repositori modular terstruktur untuk kebutuhan komersial studio fotografi produk
      * Shot 7: Rear Back View (180° Belakang)
      * Shot 8: Wide Pulled-Back (8 Meter Mundur Jauh)
    - Dilengkapi `02_SNIPPET_8_SUDUT_KAMERA_PLUG_AND_PLAY.md` untuk peracikan instan.
+   - Dilengkapi kompanion sintaks resmi FLUX.1 natural spatial prose untuk seluruh 8 sudut kamera.
+
+8. **`08_STUDIO_TRANSFORMATION_DAN_HD_ENHANCER/`**
+   - Koleksi 4 template & panduan penguncian wajah 100% dan restorasi optik HD:
+     * `01_PROMPT_STUDIO_PUTIH_POLOS_BALANCED_EXPOSURE.md`: Mengubah foto kasual/outdoor menjadi foto studio berlatar belakang putih bersih terkalibrasi (*anti-overexposure / anti-glare / contact shadow*).
+     * `02_PROMPT_UNIVERSAL_HD_ENHANCER_ZERO_MORPHING.md`: Restorasi foto apa pun menjadi resolusi ultra HD setara sensor medium format Hasselblad 100MP tanpa mengubah wajah, pakaian, atau pose.
+     * `03_PROMPT_PERSONA_LOCK_POSE_SANTAI_STUDIO.md`: Kombo modular foto orang asli + background baru + pose santai rileks dengan wajah 100% terkunci identik.
+     * `04_PANDUAN_KONSISTENSI_WAJAH_DAN_RESTORASI_HD.md`: Cheatsheet operasional cara upload URL, parameter `--cref`, perbedaan `--cw 0` vs `--cw 100`, dan panduan FLUX.1.
 
 ## 📌 ATURAN EMAS:
 - **Tanpa Kurung Siku (`[]`):** Seluruh prompt berupa teks kalimat deskriptif mengalir bersih.
