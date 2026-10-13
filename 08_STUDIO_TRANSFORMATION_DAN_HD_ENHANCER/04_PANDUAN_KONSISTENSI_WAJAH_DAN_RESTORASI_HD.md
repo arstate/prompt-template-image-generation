@@ -59,7 +59,22 @@ Generator **FLUX.1 (Schnell / Dev / Pro)** memiliki arsitektur yang berbeda deng
 
 ---
 
-## 🚫 5. TROUBLESHOOTING: JIKA HASIL WAJAH MASIH KURANG MIRIP
-1. **Wajah Terlalu Halus / Seperti Plastik:** Pastikan nilai `--s` tidak melebihi 65, dan pastikan parameter `--style raw` aktif.
-2. **Baju Asli Ikut Terbawa Padahal Mau Ganti Baju:** Turunkan parameter `--cw` menjadi `--cw 0`.
-3. **Wajah Kurang Mirip 100%:** Pastikan foto referensi input memiliki pencahayaan jelas di area mata dan wajah (tidak terpotong, tidak backlight gelap, dan tidak memakai filter kecantikan berlebihan).
+## 🍌 5. PANDUAN GOOGLE GEMINI (NANO BANANA 2 / GEMINI 3.1 FLASH IMAGE)
+
+Berbeda dengan Midjourney yang menggunakan CLI flags (`--cref`), Gemini Nano Banana 2 adalah **Multimodal LLM Image Editor**. 
+
+### Aturan Emas Gemini Nano Banana 2:
+1. **Dilarang Gunakan Perintah Pendek Kasual**: Prompt seperti `/image-gen buat jadi hd...` membuat model mengabaikan identitas asli dan beralih ke generasi bebas.
+2. **Gunakan Two-Phase Chain-of-Thought (CoT)**:
+   - **Phase 1 (Forensic Scan)**: Paksa Gemini memindai geometri wajah, kacamata (wajib tegaskan lensa bening transparan agar tidak berubah jadi kacamata hitam/sunglasses), layer pakaian asli, dan rambut.
+   - **Phase 2 (Delta Transformation)**: Kunci seluruh atribut Phase 1 dan hanya transformasikan background (studio cyclorama putih) dan pose (sendakep santai).
+3. **Template Siap Pakai**: Gunakan langsung prompt dari file `05_DYNAMIC_MULTIMODAL_STUDIO_TRANSFORMER.md`.
+
+---
+
+## 🚫 6. TROUBLESHOOTING: JIKA HASIL WAJAH MASIH KURANG MIRIP
+1. **Wajah Terlalu Halus / Seperti Plastik (Semua Platform):** Pastikan prompt memuat klausa `natural skin micro-pores, uncompressed realistic skin texture, no airbrushed plastic AI smoothing`. Di Midjourney turunkan `--s 25` dan aktifkan `--style raw`.
+2. **Kacamata Berubah Jadi Kacamata Hitam (Gemini/Nano Banana 2):** Pantulan cahaya lensa sering disalahartikan sebagai kacamata hitam. Selalu sertakan: `100% CLEAR TRANSPARENT prescription glass with pupils clearly visible behind lenses, no dark sunglass tint`.
+3. **Baju Berubah Jadi Jas Formal Padahal Mau Baju Asli:** Kata "profesional" memicu bias formal. Tegaskan: `Keep the exact clothing outfit detected in the reference photo, do not replace with a formal business suit or blazer`.
+4. **Wajah Kurang Mirip 100%:** Pastikan foto referensi input memiliki resolusi cukup di area mata dan wajah (tidak blur gerakan, tidak backlight gelap, dan tidak memakai filter kecantikan berlebihan).
+
