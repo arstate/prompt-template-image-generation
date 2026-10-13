@@ -5,9 +5,9 @@ Repositori modular terstruktur untuk kebutuhan komersial studio fotografi produk
 ## 📁 STRUKTUR FOLDER TERORGANISIR:
 
 0. **`00_MASTER_VISUAL_BREAKDOWN_ENGINE/`**
-   - Berisi 1 berkas master tunggal: `MASTER_AI_VISUAL_BREAKDOWN_ENGINE.md`.
-   - Menggabungkan panduan pengguna, system prompt, aturan anti-AI slop, dan contoh benchmark dekonstruksi.
-   - Cukup kirimkan berkas ini ke AI bersama foto referensi Pinterest untuk membedah visual menjadi 4 layer prompt modular (Background, Model/Outfit, Pose, Master Composite).
+   - Berisi 1 berkas master tunggal: `MASTER_AI_VISUAL_BREAKDOWN_ENGINE.md` (Hybrid Smart-Command & Forensic Edition).
+   - Mendukung 2 jalur kerja: **Jalur Speedrun (Direct Command)** seperti `BREAKDOWN OUTFIT`, `BREAKDOWN BEAUTY`, `BREAKDOWN PRODUCT` (1x jalan tanpa ping-pong) dan **Jalur Eksplorasi** (`VISUAL BREAKDOWN` menghasilkan Quick Master Preview + Menu Adaptif bernomor sederhana).
+   - Membedah visual referensi ke tingkat forensik (tekstil GSM, kraniofasial, ray-tracing, optik f/5.6-f/8) dengan format siap pakai untuk **Midjourney v6.1** dan **FLUX.1**.
 
 1. **`01_PRODUCT_STUDIO_STANDALONE/`**
    - Koleksi 6 template prompt khusus objek produk tunggal tanpa manusia/manekin (Universal, Fashion Gantungan Kastok, Kerajinan Kulit, Sepatu, Kemasan Pouch/Botol, Aksesori Mewah).

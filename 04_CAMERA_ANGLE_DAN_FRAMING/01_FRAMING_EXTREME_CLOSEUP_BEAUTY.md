@@ -12,3 +12,7 @@ Image Weight: --iw 2.0
 Style: --style raw
 Chaos: --c 0
 Stylize: --s 40
+
+> **💡 Catatan Kalibrasi Parameter:**
+> - **Mode Image-to-Image (Referensi Kamera):** Gunakan `--iw 2.0 --style raw --c 0 --s 40/45/50` untuk mengunci komposisi optik 100% tanpa perubahan sudut.
+> - **Mode Kombo Model / Busana (Text-to-Image):** Beralih ke parameter standar lookbook manusia: `--style raw --c 1 --s 65`.

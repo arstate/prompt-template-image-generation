@@ -131,3 +131,33 @@ commercial fashion lookbook advertising photograph, wide environmental full-body
 
 Negative Prompt:
 close-up, zoomed in, cropped feet, cut-off shoes, cropped head, model touching frame edges, claustrophobic framing, ugly, plastic skin, waxy texture, airbrushed, 3d render, cgi, cartoon, artifacts
+
+---
+
+# ⚡ FLUX.1 MULTI-ANGLE NATURAL SPATIAL PROSE COMPANION
+
+Bagi pengguna generator **FLUX.1 (Pro / Dev / Schnell)** yang memanfaatkan pemahaman bahasa spasial T5-XXL tanpa parameter flags, gunakan format natural deskriptif berikut:
+
+### 1. FLUX.1 SHOT 1: FRONT EYE-LEVEL (0° STRAIGHT ON)
+A commercial fashion lookbook photograph taken from a straight frontal eye-level angle at 0 degrees. A gorgeous 22-year-old Indonesian woman with radiant honey skin and sleek dark hair wears a tailored cream linen oversized blazer with horn buttons and matching trousers. She stands upright facing directly into the lens with a calm gentle smile, framed from mid-thigh to head. Shot with a medium format camera at f/5.6 against a seamless soft neutral grey studio cyclorama background with balanced softbox lighting and realistic contact drop shadows. Authentic skin micro-pores, natural fabric weave, zero digital smoothing.
+
+### 2. FLUX.1 SHOT 2: THREE-QUARTER HERO (45° DIMENSIONAL)
+A dynamic commercial fashion photograph taken from a three-quarter 45-degree angle. The identical 22-year-old Indonesian woman stands in a natural contrapposto stance with her body angled 45 degrees to the left while her face turns gently toward the camera. She wears the exact same cream linen oversized blazer and trousers, highlighting the jacket lapel depth and shoulder silhouette. Three-quarter cowboy framing from mid-thigh up, captured on a medium format camera at f/5.6 with soft key and rim lighting against a neutral grey studio background.
+
+### 3. FLUX.1 SHOT 3: TRUE SIDE PROFILE (90° STRICT PROFILE)
+A strict 90-degree true side profile commercial catalog photograph. The 22-year-old Indonesian woman stands with poised posture, showcasing her sharp jawline profile, sleek low ponytail, and the side seams and fluid drape of her tailored cream linen blazer and trousers. The camera is positioned perpendicular to the model at f/5.6, with directional softbox rim light carving side contours against a clean neutral grey backdrop.
+
+### 4. FLUX.1 SHOT 4: LOW-ANGLE HEROIC (15° UPWARD TILT)
+A statuesque commercial fashion editorial photograph from a low-angle camera perspective at knee height, tilted upward at 15 degrees. The 22-year-old Indonesian woman stands with commanding confidence in her tailored cream linen suit, looking slightly down toward the lens. The perspective elongates her full-body proportions with straight vertical lines. Captured with a medium format wide lens at f/6.3 on a neutral grey studio floor with grounded soft shadows.
+
+### 5. FLUX.1 SHOT 5: HIGH-ANGLE ELEVATED (35° DOWNWARD ANGLE)
+An editorial fashion photograph captured from an elevated high-angle perspective from 2.5 meters height, angled 35 degrees downward. The 22-year-old Indonesian woman tilts her head upward to meet the camera with a subtle smile, displaying the structured cream blazer collar, shoulders, and floor shadow projection. Three-quarter elevated framing shot at f/5.6 against a seamless neutral grey studio cyclorama.
+
+### 6. FLUX.1 SHOT 6: EXTREME CLOSE-UP MACRO (TEXTILE DETAIL)
+An extreme close-up commercial macro photograph tightly focusing on the cream linen blazer lapel, fine horn button cross-stitching, and the model's delicate collarbone. A delicate gold chain pendant rests gently against her radiant honey skin with visible natural micro-pores and genuine linen slub weave texture. Captured with a 120mm macro lens at f/8 for tack-sharp tactile clarity and realistic material depth.
+
+### 7. FLUX.1 SHOT 7: REAR 180° BACK VIEW (SPINE & SEAMS)
+A commercial fashion catalog photograph from a full 180-degree rear back view. The 22-year-old Indonesian woman has her back turned toward the camera, head turned slightly over her left shoulder to show her side profile. The cream linen blazer showcases its tailored back vent seams, spine drape, and neat low bun. Three-quarter back framing shot at f/5.6 with even studio lighting and zero face distortion.
+
+### 8. FLUX.1 SHOT 8: WIDE FULL-BODY PULLED-BACK (8 METERS DISTANCE)
+A wide environmental commercial fashion photograph with the camera pulled back to an 8-meter distance. The 22-year-old Indonesian woman stands gracefully centered, occupying approximately 50 percent of the vertical frame with generous breathing room above her head and extensive studio floor space below her cream trousers and leather shoes. Shot on a medium format camera at f/8 for edge-to-edge sharpness from head to toe with soft realistic ground shadows.
