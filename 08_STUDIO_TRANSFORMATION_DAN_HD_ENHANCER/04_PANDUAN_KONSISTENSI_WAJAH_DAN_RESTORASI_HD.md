@@ -77,9 +77,31 @@ Berbeda dengan Midjourney yang menggunakan CLI flags (`--cref`), Gemini Nano Ban
 
 ---
 
-## 🚫 6. TROUBLESHOOTING: JIKA HASIL WAJAH MASIH KURANG MIRIP
+## 🔮 6. TEKNIK MULTI-IMAGE REFERENCE: TRIANGULASI 3D & FUSI MODULAR (KEMIRIPAN 98-100%)
+
+Jika 1 foto referensi masih dirasa kurang mirip akibat distorsi lensa HP atau bayangan gelap, gunakan **Multi-Image Reference**:
+
+### A. Stereoscopic Facial Triangulation (2 Foto Orang Sama)
+- **Konsep:** Masukkan 2 foto orang yang sama (1 foto lurus ke kamera + 1 foto sudut 3/4 miring).
+- **Hasil:** AI merekonsiliasi kedua sudut dan membentuk model 3D tengkorak yang presisi, melenyapkan distorsi perspektif foto tunggal.
+- **Midjourney Syntax:** `--cref [URL_FOTO_1] [URL_FOTO_2] --cw 100` (Midjourney merata-rata embedding wajah dari kedua foto).
+- **Gemini / Multimodal:** Gunakan template `06_MULTI_IMAGE_REFERENCE_FUSION_ENGINE.md` Mode A.
+
+### B. Modular Role-Decoupled Fusion (Wajah + Pose + Latar Berbeda)
+- **Konsep:** Menggabungkan 3 foto berbeda tanpa *feature bleeding*:
+  - Gambar 1: Wajah sendiri (Identity Lock).
+  - Gambar 2: Pose model dari majalah (Pose Donor).
+  - Gambar 3: Latar studio atau cafe (Environment Donor).
+- **Midjourney Syntax:** `--cref [URL_WAJAH] --cw 0 --sref [URL_LATAR]`
+- **Gemini / Multimodal:** Gunakan template `06_MULTI_IMAGE_REFERENCE_FUSION_ENGINE.md` Mode B.
+
+---
+
+## 🚫 7. TROUBLESHOOTING: JIKA HASIL WAJAH MASIH KURANG MIRIP
 1. **Wajah Terlalu Halus / Seperti Plastik (Semua Platform):** Pastikan prompt memuat klausa `natural skin micro-pores, uncompressed realistic skin texture, no airbrushed plastic AI smoothing`. Di Midjourney turunkan `--s 25` dan aktifkan `--style raw`.
 2. **Kacamata Berubah Jadi Kacamata Hitam (Gemini/Nano Banana 2):** Pantulan cahaya lensa sering disalahartikan sebagai kacamata hitam. Selalu sertakan: `100% CLEAR TRANSPARENT prescription glass with pupils clearly visible behind lenses, no dark sunglass tint`.
 3. **Baju Berubah Jadi Jas Formal Padahal Mau Baju Asli:** Kata "profesional" memicu bias formal. Tegaskan: `Keep the exact clothing outfit detected in the reference photo, do not replace with a formal business suit or blazer`.
-4. **Wajah Kurang Mirip 100%:** Pastikan foto referensi input memiliki resolusi cukup di area mata dan wajah (tidak blur gerakan, tidak backlight gelap, dan tidak memakai filter kecantikan berlebihan).
+4. **Fitur Gambar Tercampur Aduk (Multi-Image Bleeding):** Berikan partisi peran eksplisit pada setiap gambar (`Image 1: Face ONLY`, `Image 2: Pose ONLY`, `Image 3: Environment ONLY`).
+5. **Wajah Kurang Mirip 100%:** Gunakan Mode A Facial Triangulation dengan mengunggah 2 sudut foto wajah sekaligus.
+
 

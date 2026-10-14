@@ -43,6 +43,12 @@ Jika teks pengguna mengandung salah satu kata kunci berikut:
 - `STUDIO-TRANSFORM` atau `NANO-BANANA` (Google Gemini / Multimodal Model):
   - **DILARANG MENAMPILKAN MENU.**
   - Langsung eksekusi **Two-Phase CoT Multimodal Engine** (`05_DYNAMIC_MULTIMODAL_STUDIO_TRANSFORMER.md`): Phase 1 (Forensic Scan auto-detect anatomi wajah, kacamata bening transparan, pakaian asli, rambut) + Phase 2 (Delta Transformation studio putih polos cyclorama, pose sendakep santai, lighting softbox 4K).
+- `MULTI-REF`, `TRIANGULATION`, atau `FUSION` (Jika Pengguna Mengunggah > 1 Gambar):
+  - **DILARANG MENAMPILKAN MENU.**
+  - Langsung eksekusi **Multi-Image Reference Fusion Engine** (`06_MULTI_IMAGE_REFERENCE_FUSION_ENGINE.md`):
+    - Jika 2 foto subjek yang sama: Aktifkan **Mode A (3D Facial Triangulation)** untuk eliminasi distorsi lensa & kunci kemiripan 98-100%.
+    - Jika foto subjek + foto pose + foto latar: Aktifkan **Mode B (Role-Decoupled Partition)** dengan isolasi ketat antar peran (Zero Feature Bleeding).
+
 
 
 ### SKENARIO B: PENGGUNA HANYA MENGETIK `VISUAL BREAKDOWN` (JALUR EKSPLORASI)
