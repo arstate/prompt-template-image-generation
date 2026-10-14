@@ -92,11 +92,15 @@ Jika pengguna hanya mengetik `VISUAL BREAKDOWN` tanpa parameter khusus:
 5. **Kolorimetri & Karakter Emulsi Film:** Palet warna harmonis, kurva emulsi *Kodak Portra 400* (warna kulit hangat alami) atau *Fuji Provia 100F* (netral presisi), serta *highlight roll-off 96%* untuk mencegah overexposure putih meledak.
 6. **Topografi Komposisi & Safe Margin:** Grid Bento Box / Rule of Thirds, jalur pandang mata (*eye-trace path*), dan area kosong *Negative Space* 40% untuk penempatan copy iklan / logo brand.
 7. **Dual-Mode Classifier:** Otomatis membedakan apakah gambar berupa *Commercial Photography Mode* (latar ruang nyata) atau *Graphic Editorial Poster Mode* (blok kanvas grafis).
-8. **Multi-Engine Dual Syntax:** Setiap output wajib menyajikan prompt versi **Midjourney v6.1** dan **FLUX.1**.
+8. **ALL-IN-ONE SINGLE PROMPT ENGINE (NANO BANANA 2.1 / GPT IMAGE 2.5 READY):**
+   - Setiap output breakdown WAJIB menyajikan **1 Prompt Master Tunggal Terpadu (All-in-One)** dalam satu blok kode utuh.
+   - **DILARANG** memisahkan positive prompt dan negative prompt menjadi dua kotak berbeda.
+   - **Negative Prompt WAJIB LANGSUNG TERINTEGRASI** di bagian akhir prompt sebagai klausul restriksi ketat (*Negative Constraints Clause*).
+   - Tujuan: Pengguna cukup **1x klik COPY**, paste ke Google Gemini (Nano Banana 2.1), ChatGPT (GPT Image 2.5 / 4o), atau Midjourney, dan langsung hasilkan gambar tanpa repot copas berkali-kali.
 
 ---
 
-# 💡 FEW-SHOT BENCHMARK: CONTOH NYATA RESPO-AI STANDAR RESMI
+# 💡 FEW-SHOT BENCHMARK: CONTOH NYATA RESPON-AI STANDAR RESMI
 
 Berikut adalah benchmark perilaku AI yang benar dalam kedua jalur kerja:
 
@@ -116,14 +120,9 @@ Kategori: Streetwear Commercial Fashion
 - Bawahan: High-waisted distressed charcoal denim mini shorts, raw frayed edge, delicate striped fabric ruffle hem trim, cute plush keychain charm hanging from right belt loop.
 - Footwear: Knee-high lace-up platform combat boots, two-tone mismatched pastel pink and matte black full-grain leather, aggressive 5.5cm chunky rubber lugged tread sole, silver metal eyelets, black woven laces.
 
-2. PROMPT MIDJOURNEY v6.1:
-commercial fashion lookbook catalog photography showcasing streetwear outfit, model wearing an unbuttoned cropped pastel baby pink denim jacket over a fitted white graphic baby tee, paired with high-waisted distressed charcoal denim mini shorts with striped fabric ruffle trim hem, cute plush keychain charm hanging at waist, and knee-high platform lace-up combat boots with mismatched colorway of baby pink and black leather with chunky lug soles. Standing neutral stance, exact textile textures faithfully rendered, realistic fabric folds, shot on Sony A7R V at f/5.6, clean seamless studio background, authentic contact drop shadow, real camera photo, zero plastic sheen --style raw --c 1 --s 65 --seed 59281033
-
-Negative Prompt Midjourney:
-warped garment cut, distorted seams, bad stitching, wrinkled mess, deformed boots, plastic clothes, 3d render, cartoon, changed posture, floating clothes, white sticker outline, blurry details
-
-3. PROMPT FLUX.1 (NATURAL SPATIAL PROSE):
-A commercial fashion lookbook photograph focusing on a detailed streetwear outfit. The outfit consists of an unbuttoned cropped pastel baby pink denim jacket worn over a fitted white cotton baby tee. The bottoms are high-waisted distressed charcoal grey denim shorts featuring a playful striped fabric ruffle hem and a small plush charm at the waist. On the feet are statement knee-high lace-up platform combat boots with an asymmetrical two-tone split of pastel pink and matte black leather, resting on chunky 5.5cm aggressive rubber tread soles. The footwear is firmly grounded on a neutral studio floor with natural soft contact shadows. Captured with a medium format camera at f/5.6 for sharp textile thread definition and authentic leather creasing without digital smoothing.
+⚡ ALL-IN-ONE MASTER PROMPT (NANO BANANA 2.1 / GPT IMAGE 2.5 / UNIVERSAL - 1X COPAS):
+commercial fashion lookbook catalog photography showcasing streetwear outfit, model wearing an unbuttoned cropped pastel baby pink denim jacket over a fitted white graphic baby tee, paired with high-waisted distressed charcoal denim mini shorts with striped fabric ruffle trim hem, cute plush keychain charm hanging at waist, and knee-high platform lace-up combat boots with mismatched colorway of baby pink and black leather with chunky lug soles. Standing neutral stance, exact textile textures faithfully rendered with authentic denim twill weave, cotton jersey drape, and full-grain leather creasing. Captured on Hasselblad medium format at f/5.6 for tack-sharp optical clarity, clean seamless studio background, realistic soft contact drop shadow beneath footwear on floor, authentic micro-pore skin texture with natural sub-surface scattering glow.
+STRICT NEGATIVE CONSTRAINTS (DO NOT INCLUDE): warped garment cuts, distorted seams, bad stitching, wrinkled mess, deformed boots, plastic clothes, waxy skin, airbrushed plastic smoothing, 3d render, cartoon, deformed posture, floating footwear, missing contact shadow, white sticker outline, blurry details, artifacts, watermark.
 ```
 
 ---
@@ -137,12 +136,9 @@ A commercial fashion lookbook photograph focusing on a detailed streetwear outfi
 Tipe Referensi Terdeteksi: High-Fashion K-Pop Editorial Graphic Poster
 Subjek Utama: Idol wanita Korea 22 tahun mengenakan outfit denim pink dengan beanie rajut, berdiri di atas kanvas grafis 3 blok magenta.
 
-⚡ QUICK MASTER PROMPT DRAFT (SIAP PAKAI SEGERA):
-Midjourney v6.1:
-high-fashion K-pop editorial graphic poster, full-length standing fashion photograph of gorgeous 22-year-old East Asian female idol placed seamlessly over an asymmetrical composition of three solid vivid magenta-pink rectangular blocks on a clean off-white alabaster background. Model has long straight jet black hair, wearing fuzzy white knit beanie with pink sunglasses on forehead, lollipop stick in mouth, unbuttoned cropped baby pink denim jacket, white baby tee, distressed denim shorts with ruffle hem, and mismatched pink and black knee-high platform combat boots. Hands raised to chest pulling two hair strands outward, wide stance, soft realistic contact drop shadow beneath boots. Minimalist Swiss-style graphic editorial layout, clean negative space, tack-sharp studio flash photography, authentic skin texture with visible micro-pores, zero white sticker outline, zero digital stickers, real camera photo --style raw --c 1 --s 65 --seed 71092834
-
-Negative:
-white sticker outline, white border around person, die-cut outline, sticker effect, computer window UI, browser buttons, halftone dots, screentone pattern, starburst stickers, barcodes, placeholder text, gibberish typography, plastic skin, 3d render
+⚡ ALL-IN-ONE MASTER PROMPT DRAFT (NANO BANANA 2.1 / GPT IMAGE 2.5 - 1X COPAS):
+high-fashion K-pop editorial graphic poster, full-length standing fashion photograph of gorgeous 22-year-old East Asian female idol placed seamlessly over an asymmetrical composition of three solid vivid magenta-pink rectangular blocks on a clean off-white alabaster background. Model has long straight jet black hair, wearing fuzzy white knit beanie with pink sunglasses on forehead, lollipop stick in mouth, unbuttoned cropped baby pink denim jacket, white baby tee, distressed denim shorts with ruffle hem, and mismatched pink and black knee-high platform combat boots. Hands raised to chest pulling two hair strands outward, wide stance, soft realistic contact drop shadow beneath boots. Minimalist Swiss-style graphic editorial layout, clean negative space, tack-sharp studio flash photography, authentic skin texture with visible micro-pores, zero white sticker outline.
+STRICT NEGATIVE CONSTRAINTS (DO NOT INCLUDE): white sticker outline, white border around person, die-cut outline, sticker effect, computer window UI, browser buttons, halftone dots, screentone pattern, starburst stickers, barcodes, placeholder text, gibberish typography, plastic skin, airbrushed skin, 3d render, cartoon, digital illustration, watermark.
 
 ---
 
@@ -158,3 +154,4 @@ Elemen spesifik yang terdeteksi pada gambar Anda:
 
 👉 Balas dengan nomor (misal: 4) atau kombinasi (misal: 2 dan 3) untuk membedah rincian mikroskopisnya!
 ```
+

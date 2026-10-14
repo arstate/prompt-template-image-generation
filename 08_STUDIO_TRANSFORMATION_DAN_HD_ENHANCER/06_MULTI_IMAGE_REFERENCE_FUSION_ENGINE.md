@@ -41,7 +41,9 @@ Generate the unified portrait:
 - [FROZEN IDENTITY - 100% LOCK]: Render the triangulated facial identity from Phase 1. Zero facial morphing.
 - [STUDIO DELTA]: Position subject in a relaxed, confident chest-up 3:4 portrait stance facing the camera.
 - [BACKGROUND & LIGHTING]: Seamless pure white photography studio cyclorama, balanced softbox key light at 45 degrees, gentle fill, realistic subtle contact floor shadow. Crisp 4K photographic texture with authentic micro-pores. No plastic AI skin smoothing.
+- [STRICT NEGATIVE CONSTRAINTS (DO NOT INCLUDE)]: altered facial features, different person, mismatched facial bone structure, dark sunglasses, opaque lenses, plastic skin, waxy texture, airbrushed AI smoothing, formal suit/tuxedo, blown-out white background, distorted hands, 3d render, cartoon, digital illustration, watermark.
 ```
+
 
 ---
 
@@ -74,8 +76,9 @@ STRICT EXECUTION DIRECTIVES:
    - Match key lighting angle and color temperature from Image 3, anchoring realistic contact shadows.
    - COMPLETELY DISREGARD any human subject inside Image 3.
 
-QUALITY GATE:
+QUALITY GATE & RESTRICTIONS:
 Tack-sharp 4K photographic fidelity, authentic skin micro-pores, zero plastic smoothing, zero feature cross-contamination.
+STRICT NEGATIVE CONSTRAINTS (DO NOT INCLUDE): face-bleeding from Image 2 or Image 3, posture-bleeding from Image 1, plastic skin, airbrushed skin, dark sunglasses, formal blazer, distorted fingers, 3d render, cartoon, digital illustration, watermark.
 ```
 
 ---
@@ -95,7 +98,9 @@ ATURAN PARTISI KETAT (DILARANG TERCAMPUR):
 2. Dari Gambar 2: Ambil bentuk pose tubuh dan tangan bersedekap/santai. Buang seluruh wajah dan kepala model di Gambar 2.
 3. Dari Gambar 3: Ambil latar belakang studio putih bersih dan tata lampu studio. Buang orang di Gambar 3 jika ada.
 4. Kualitas: Ketajaman foto komersial 4K, tekstur pori-pori kulit asli, tanpa efek plastik halus AI.
+5. LARANGAN KETAT (NEGATIVE CONSTRAINTS): Dilarang wajah bocor dari Gambar 2 atau 3, dilarang pose bocor dari Gambar 1, dilarang kacamata hitam, dilarang kulit plastik mulus palsu, dilarang tangan distorsi, dilarang 3D render/kartun.
 ```
+
 
 ---
 

@@ -37,6 +37,7 @@ Generate the final portrait adhering strictly to these directives:
 - [DELTA 1 - POSE & COMPOSITION]: Medium chest-up 3:4 portrait framing. Subject is posed comfortably with arms naturally crossed across chest (pose sendakep santai), confident and approachable expression looking directly into the camera lens.
 - [DELTA 2 - BACKGROUND]: Completely eliminate original cluttered background. Replace with a seamless, solid pure white photography cyclorama studio backdrop. Include subtle, realistic soft floor contact shadows. Background must be pristine white with balanced exposure (zero blown-out highlight clipping).
 - [DELTA 3 - STUDIO LIGHTING & RESOLUTION]: Professional 45-degree softbox key lighting, gentle ambient fill light, subtle catchlights in eyes, crisp 4K photographic sharpness, realistic uncompressed skin texture with visible natural micro-pores. No airbrushed plastic AI smoothing.
+- [STRICT NEGATIVE CONSTRAINTS (DO NOT INCLUDE)]: formal business suit, tuxedo, blazer, necktie, dark sunglasses, tinted lenses, plastic skin, airbrushed skin, blown out white highlights, clipped whites, distorted hands, morphing jawline, generic stock photo face, 3d render, cartoon, digital illustration, watermark.
 ```
 
 ---
@@ -63,7 +64,9 @@ Hasilkan foto baru dengan aturan ketat:
 - UBAH POSE: Reframe foto potret 3:4 (dada ke atas), pose tangan bersedekap santai di dada (pose sendakep santai), ekspresi ramah, santai, dan percaya diri menatap kamera.
 - UBAH BACKGROUND: Ganti latar belakang berantakan menjadi studio foto putih polos mulus (seamless white cyclorama) dengan bayangan lantai alami yang halus. Background putih bersih tanpa overexposure silau.
 - PENCAHAYAAN & KUALITAS: Tata cahaya softbox studio 45 derajat, ketajaman foto 4K, tekstur pori-pori kulit alami tampak nyata tanpa efek plastik AI halus.
+- LARANGAN KETAT (NEGATIVE CONSTRAINTS): Dilarang jas formal/blazer, dilarang kacamata hitam/lensa gelap, dilarang kulit plastik mulus palsu, dilarang background silau overexposure meledak, dilarang tangan distorsi, dilarang 3D render atau kartun.
 ```
+
 
 ---
 

@@ -9,10 +9,22 @@ Template kombo modular ini khusus digunakan untuk menggabungkan **Foto Orang Asl
 
 ---
 
+## ⚡ ALL-IN-ONE MASTER PROMPT (NANO BANANA 2.1 / GPT IMAGE 2.5 - 1X COPAS LANGSUNG JADI)
+> Cukup 1x salin teks di bawah ini dan tempelkan bersama foto input ke Gemini Nano Banana 2.1 atau ChatGPT GPT Image 2.5:
+
+```text
+[ATTACHED PHOTO IS SOLE GROUND TRUTH REFERENCE - PERSONA LOCK]
+Generate a relaxed commercial lifestyle studio portrait using the attached reference photograph, 100 percent faithful facial identity retention maintaining exact craniofacial bone structure, distinctive eye contours, nose bridge, jawline, and natural warm skin tone with zero facial drift. The subject adopts an elegant relaxed stance with natural weight shift, relaxed dropped shoulders, hands resting gracefully with natural anatomically correct fingers, quiet confident friendly expression. Authentically rendered skin micro-pore definition, soft sub-surface scattering skin glow. Placed naturally within modern minimalist architectural studio environment, soft ambient daylight filtering from large side window combined with diffused studio fill, realistic soft contact floor shadow beneath footwear, shot on Hasselblad medium format with 85mm lens at f/5.6 for tack-sharp front-to-back optical clarity.
+STRICT NEGATIVE CONSTRAINTS (DO NOT INCLUDE): altered facial features, modified facial structure, different person, facial morphing, deformed face, wrong ethnicity, changed eye shape, stiff robotic stance, awkward limb placement, clenched fists, deformed hands, extra fingers, missing fingers, floating body, no ground shadow, plastic skin, waxy texture, airbrushed skin, beauty filter, facetune, 3d render, cgi, cartoon, anime, over-processed, artifacts, watermark.
+```
+
+---
+
 ## 🎯 POSITIVE PROMPT SIAP PAKAI (MIDJOURNEY v6.1 - IMAGE-TO-IMAGE)
 ```text
 [URL_FOTO_REFERENSI_USER] relaxed commercial lifestyle studio portrait of the input reference person, 100 percent faithful facial identity retention maintaining exact craniofacial bone structure, distinctive eye contours, nose bridge, jawline, and natural warm skin tone of the reference person with zero facial drift. The subject is posed in an elegant relaxed stance, natural casual weight shift, relaxed dropped shoulders, hands resting gracefully with natural anatomically correct fingers, quiet confident friendly expression. Authentically rendered micro-pore definition, soft sub-surface scattering skin glow, zero plastic smoothing. Placed naturally within modern minimalist architectural studio environment, soft ambient daylight filtering from large side window combined with diffused studio fill, grounded with realistic soft contact drop shadow beneath footwear on floor, captured on Hasselblad H6D-100c medium format camera with 85mm lens at f/5.6 for tack-sharp front-to-back optical clarity, genuine high-end editorial lifestyle lookbook standard, real camera photograph, zero plastic sheen, no CGI slop --cref [URL_FOTO_REFERENSI_USER] --cw 0 --style raw --c 1 --s 65 --seed 38192044
 ```
+
 
 > **💡 PANDUAN NILAI `--cw`:**
 > - Parameter `--cw 0` mengunci wajah 100% identik dari foto input, namun membebaskan badan dan pakaian untuk mengikuti pose santai baru.

@@ -9,10 +9,22 @@ Template ini khusus digunakan untuk merestorasi dan meningkatkan resolusi foto a
 
 ---
 
+## ⚡ ALL-IN-ONE MASTER PROMPT (NANO BANANA 2.1 / GPT IMAGE 2.5 - 1X COPAS LANGSUNG JADI)
+> Cukup 1x salin teks di bawah ini dan tempelkan bersama foto input ke Gemini Nano Banana 2.1 atau ChatGPT GPT Image 2.5:
+
+```text
+[ATTACHED PHOTO IS SOLE GROUND TRUTH REFERENCE - OPTICAL REMASTER ONLY]
+Perform an ultra-high definition optical remastering of the attached reference photograph. Preserve 100 percent of the exact subject facial features, eye details, hair strands, outfit textile weave, posture, and environmental background with zero alteration or morphing. Eliminate all digital compression noise, pixelation, and motion blur. Render authentic biological micro-pore definition, delicate vellus facial peach fuzz, crisp iris striations with natural specular catchlights, healthy sub-surface scattering skin luminosity, and tangible thread textures across garments. Captured on Hasselblad medium format at f/8 for edge-to-edge tack-sharp resolution, balanced dynamic range with clean highlight roll-off and anchored deep shadow details.
+STRICT NEGATIVE CONSTRAINTS (DO NOT INCLUDE): altered face, modified facial structure, changed eyes, different nose, altered mouth, morphed clothing, changed pattern, modified posture, different background, digital compression, blur, pixelation, chromatic aberration, plastic skin, waxy texture, airbrushed skin, beauty filter, facetune, 3d render, cgi, cartoon, digital illustration, uncanny valley, over-sharpened halos, noise artifacts, watermark.
+```
+
+---
+
 ## 🎯 POSITIVE PROMPT SIAP PAKAI (MIDJOURNEY v6.1 - IMAGE-TO-IMAGE)
 ```text
 [URL_FOTO_REFERENSI_USER] ultra-high definition commercial optical remastering of the input reference photograph, 100 percent faithful preservation of the exact subject facial features, eye details, hair strands, outfit textile weave, posture, and environmental background with zero alteration or morphing. Eliminating digital compression noise, motion blur, and optical aberrations, rendering authentic biological micro-pore definition, delicate vellus skin peach fuzz, crisp iris striations with natural specular catchlights, healthy sub-surface scattering skin luminosity, and tangible thread textures across garments. Masterfully captured with Hasselblad H6D-100c medium format sensor, 100mm prime lens, stopped down to f/8 for edge-to-edge tack-sharp MTF resolution clarity, perfectly balanced dynamic range with clean highlight roll-off and anchored deep shadow details, authentic tangible photographic reality, zero plastic smoothing, zero CGI artifacts --iw 2.0 --cref [URL_FOTO_REFERENSI_USER] --cw 100 --style raw --c 0 --s 25 --seed 24091367
 ```
+
 
 ---
 

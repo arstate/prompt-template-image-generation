@@ -9,10 +9,22 @@ Template ini khusus digunakan untuk mengubah foto orang biasa (selfie, outdoor, 
 
 ---
 
+## ⚡ ALL-IN-ONE MASTER PROMPT (NANO BANANA 2.1 / GPT IMAGE 2.5 - 1X COPAS LANGSUNG JADI)
+> Cukup 1x salin teks di bawah ini dan tempelkan bersama foto input ke Gemini Nano Banana 2.1 atau ChatGPT GPT Image 2.5:
+
+```text
+[ATTACHED PHOTO IS SOLE GROUND TRUTH REFERENCE]
+Transform the subject in the attached reference photograph into a commercial studio portrait, 100 percent faithful facial identity retention maintaining exact craniofacial bone structure, identical eyes, nose, lips, natural skin tone, and unique facial markers with zero facial morphing. Natural relaxed gaze into camera, authentic micro-pore definition, soft sub-surface scattering skin glow. Placed against seamless soft neutral light alabaster off-white studio cyclorama background, perfectly calibrated balanced exposure preventing blown-out highlights or harsh glare, balanced dual 120cm softbox studio strobes, realistic soft ambient occlusion contact floor drop shadow beneath footwear on floor, captured on Hasselblad H6D-100c medium format camera at f/5.6 aperture, crisp 4K photographic reality.
+STRICT NEGATIVE CONSTRAINTS (DO NOT INCLUDE): altered facial features, modified facial structure, different person, facial morphing, deformed face, wrong ethnicity, changed eye shape, plastic skin, waxy texture, airbrushed skin, beauty filter, facetune, pure blinding white background, blown-out highlights, clipped white glare, washed-out exposure, overexposed walls, missing ground shadow, floating person, 3d render, cgi, cartoon, anime, illustration, extra fingers, deformed hands, artifacts, watermark.
+```
+
+---
+
 ## 🎯 POSITIVE PROMPT SIAP PAKAI (MIDJOURNEY v6.1 - IMAGE-TO-IMAGE)
 ```text
 [URL_FOTO_REFERENSI_USER] commercial studio portrait photograph of the input reference person, 100 percent faithful facial identity retention maintaining exact craniofacial bone structure, identical eyes, nose, lips, natural skin tone, and unique facial markers of the input reference person with zero facial morphing. The subject is posed naturally with calm confident gaze into the camera, authentic micro-pore definition, soft sub-surface scattering skin glow, zero waxy plastic smoothing. Positioned against seamless soft neutral light alabaster off-white studio cyclorama background, perfectly calibrated 1:1 key-to-background exposure preventing blown-out highlights or harsh glare, balanced dual 120cm softbox studio strobes with subtle edge rim light, soft realistic ambient occlusion contact drop shadow anchored beneath footwear on the studio floor, captured with Hasselblad H6D-100c medium format camera, 85mm portrait lens, f/5.6 aperture for edge-to-edge optical sharpness, genuine commercial lookbook quality, real camera photo, zero plastic sheen, no CGI slop --cref [URL_FOTO_REFERENSI_USER] --cw 100 --style raw --c 1 --s 65 --seed 24091367
 ```
+
 
 > **💡 PANDUAN NILAI `--cw`:**
 > - Gunakan `--cw 100` jika ingin **mempertahankan pakaian asli** dari foto referensi.
