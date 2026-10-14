@@ -4,8 +4,15 @@ Template ini khusus digunakan untuk merestorasi dan meningkatkan resolusi foto a
 
 ---
 
-## 🎯 POSITIVE PROMPT SIAP PAKAI (MIDJOURNEY v6.1)
-ultra-high definition commercial optical remastering of the input reference photograph, 100 percent faithful preservation of the exact subject facial features, eye details, hair strands, outfit textile weave, posture, and environmental background with zero alteration or morphing. Eliminating digital compression noise, motion blur, and optical aberrations, rendering authentic biological micro-pore definition, delicate vellus skin peach fuzz, crisp iris striations with natural specular catchlights, healthy sub-surface scattering skin luminosity, and tangible thread textures across garments. Masterfully captured with Hasselblad H6D-100c medium format sensor, 100mm prime lens, stopped down to f/8 for edge-to-edge tack-sharp MTF resolution clarity, perfectly balanced dynamic range with clean highlight roll-off and anchored deep shadow details, authentic tangible photographic reality, zero plastic smoothing, zero CGI artifacts --iw 2.0 --style raw --c 0 --s 25 --seed 24091367
+> ⚠️ **MANDAT WAJIB IMAGE REFERENCE:**
+> DILARANG meng-generate dari teks mentah (*text-to-image from scratch*). Prompt ini adalah **Optical Remastering** yang WAJIB dijalankan dalam mode **Image-to-Image** dengan melampirkan foto asli yang di-input pengguna.
+
+---
+
+## 🎯 POSITIVE PROMPT SIAP PAKAI (MIDJOURNEY v6.1 - IMAGE-TO-IMAGE)
+```text
+[URL_FOTO_REFERENSI_USER] ultra-high definition commercial optical remastering of the input reference photograph, 100 percent faithful preservation of the exact subject facial features, eye details, hair strands, outfit textile weave, posture, and environmental background with zero alteration or morphing. Eliminating digital compression noise, motion blur, and optical aberrations, rendering authentic biological micro-pore definition, delicate vellus skin peach fuzz, crisp iris striations with natural specular catchlights, healthy sub-surface scattering skin luminosity, and tangible thread textures across garments. Masterfully captured with Hasselblad H6D-100c medium format sensor, 100mm prime lens, stopped down to f/8 for edge-to-edge tack-sharp MTF resolution clarity, perfectly balanced dynamic range with clean highlight roll-off and anchored deep shadow details, authentic tangible photographic reality, zero plastic smoothing, zero CGI artifacts --iw 2.0 --cref [URL_FOTO_REFERENSI_USER] --cw 100 --style raw --c 0 --s 25 --seed 24091367
+```
 
 ---
 
@@ -15,19 +22,20 @@ altered face, modified facial structure, changed eyes, different nose, altered m
 ---
 
 ## ⚙️ SEED & PARAMETERS
-Seed: 24091367
-Image Weight: --iw 2.0
-Style: --style raw
-Chaos: --c 0
-Stylize: --s 25
-
-> **💡 CARA EKSEKUSI DI MIDJOURNEY (IMAGE-TO-IMAGE):**
-> 1. Unggah foto asli ke Discord / Midjourney, lalu salin tautan gambar (*copy link*).
-> 2. Ketik `/imagine` lalu tempelkan URL foto di awal:
->    `URL_FOTO_ASLI [salin teks positive prompt di atas] --cref URL_FOTO_ASLI --cw 100`
-> 3. Parameter `--iw 2.0`, `--c 0`, dan `--s 25` menjamin AI hanya bertindak sebagai pembersih optik sensor tanpa berhalusinasi menambah objek baru.
+- **Image Input Slot:** `[URL_FOTO_REFERENSI_USER]` (Wajib disematkan di awal)
+- **Character Reference:** `--cref [URL_FOTO_REFERENSI_USER]`
+- **Character Weight:** `--cw 100` (100% kunci pakaian dan pose)
+- **Image Weight:** `--iw 2.0` (prioritas absolut ke foto input)
+- **Seed:** `24091367`
+- **Style:** `--style raw`
+- **Chaos:** `--c 0` (zero randomness)
+- **Stylize:** `--s 25` (minimal stylization)
 
 ---
 
-## ⚡ FLUX.1 COMPANION (NATURAL SPATIAL PROSE)
-An ultra-high-definition optical restoration and remaster of the reference photograph. Every detail of the subject's face, facial bone structure, eyes, hair, and clothing is preserved 100 percent identically without any morphological changes. The image quality is enhanced to match a raw medium format sensor capture, resolving genuine biological micro-pores on the skin, clear eye iris reflections, and tangible thread weaves in the fabric. Noise, compression artifacts, and soft blur are eliminated, replaced with crisp optical sharpness at f/8 aperture. Balanced natural studio lighting with authentic dynamic range and zero artificial smoothing.
+## ⚡ FLUX.1 COMPANION (IMAGE-TO-IMAGE / CONDITIONED REMASTER)
+```text
+[INPUT: REFERENCE_IMAGE_1 (MANDATORY ATTACHED PHOTO)]
+An ultra-high-definition optical restoration and remaster of the exact reference photograph. Every detail of the subject's face, facial bone structure, eyes, hair, clothing, and background is preserved 100 percent identically without any morphological changes. The image quality is enhanced to match a raw medium format sensor capture, resolving genuine biological micro-pores on the skin, clear eye iris reflections, and tangible thread weaves in the fabric. Noise, compression artifacts, and soft blur are eliminated, replaced with crisp optical sharpness at f/8 aperture. Balanced natural studio lighting with authentic dynamic range and zero artificial smoothing.
+```
+

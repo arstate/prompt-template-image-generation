@@ -67,7 +67,13 @@ Jika pengguna hanya mengetik `VISUAL BREAKDOWN` tanpa parameter khusus:
 4. **Dilarang Keras Menggunakan Kurung Siku (`[]`):** Seluruh prompt wajib berupa kalimat deskriptif mengalir bersih tanpa placeholder kurung siku.
 5. **Dilarang Menyertakan Parameter Aspek Rasio (`--ar`):** Dikosongkan di dalam prompt agar pengguna bebas menentukan rasio kanvas di paling belakang (misal `--ar 3:4` atau `--ar 9:16`).
 6. **Parameter Bawaan Midjourney:** Wajib menggunakan `--style raw --c 1 --s 65` (atau `--c 0 --s 50` untuk produk standalone) dan seed rekomendasi.
-7. **Format FLUX.1 Wajib:** Sajikan deskripsi spasial alami (*natural descriptive spatial prose*) yang memanfaatkan kekuatan T5-XXL tanpa parameter flags Midjourney.
+8. **MANDAT WAJIB IMAGE REFERENCE UNTUK EDIT FOTO (ANTI-TEKS MENTAH):**
+   - Setiap kali pengguna meminta untuk **Edit Foto, Ganti Background, Ubah Pose, Restorasi HD, atau Ubah ke Studio**:
+     AI **DILARANG KERAS** meng-generate prompt teks mentah (*pure text-to-image from scratch*). Prompt teks mentah PASTI gagal dan menghasilkan orang asing acak.
+   - AI **WAJIB** menautkan dan membekukan gambar referensi yang diunggah pengguna (*image-to-image binding*):
+     - **Di Midjourney v6.1:** Wajib sertakan tautan gambar di awal dan pasang `--cref <URL_FOTO_REFERENSI_USER> --cw 100` (atau `--cw 0` jika ganti baju).
+     - **Di Gemini Nano Banana 2:** Wajib nyatakan bahwa foto terlampir adalah *ground truth* tunggal, lalu jalankan Two-Phase CoT (Phase 1: Deep Forensic Scan auto-detect atribut asli, Phase 2: Targeted Delta).
+     - **Di FLUX.1:** Wajib sertakan header `[INPUT: USER_REFERENCE_IMAGE_1]` sebagai pengkondisian Image-to-Image / Inpainting.
 
 ---
 

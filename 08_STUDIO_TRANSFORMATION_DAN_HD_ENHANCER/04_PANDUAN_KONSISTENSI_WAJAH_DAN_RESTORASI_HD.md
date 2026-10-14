@@ -2,6 +2,11 @@
 
 Panduan ini adalah standar operasional untuk memastikan wajah orang asli dari foto referensi terkunci 100% identik tanpa distorsi, serta cara mengeksekusi restorasi HD murni pada Midjourney v6.1 dan FLUX.1.
 
+> 🚨 **HUKUM ABSOLUT EDIT FOTO: DILARANG GENERATE DARI PROMPT TEKS MENTAH!**
+> Setiap kali ada permintaan **Edit Foto / Ubah Background / Ubah Pose / Restorasi HD**, AI atau pengguna **WAJIB MENGGUNAKAN GAMBAR REFERENSI INPUT** (Image-to-Image / Inpainting / Multimodal Attachment).
+> **Mengapa prompt teks mentah selalu gagal?**
+> Jika Anda hanya mengandalkan teks (Text-to-Image dari nol), AI akan *berhalusinasi* menciptakan orang baru yang acak. Wajah, proporsi mata, dan baju asli tidak akan pernah bisa 100% identik tanpa menautkan file gambar aslinya sebagai jangkar referensi (*visual anchor*).
+
 ---
 
 ## 🔑 1. CARA MENGAMBIL DIRECT URL GAMBAR DI DISCORD / MIDJOURNEY

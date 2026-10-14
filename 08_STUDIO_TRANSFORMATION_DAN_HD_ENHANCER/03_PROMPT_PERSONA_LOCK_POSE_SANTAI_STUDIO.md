@@ -4,8 +4,19 @@ Template kombo modular ini khusus digunakan untuk menggabungkan **Foto Orang Asl
 
 ---
 
-## 🎯 POSITIVE PROMPT SIAP PAKAI (MIDJOURNEY v6.1)
-relaxed commercial lifestyle studio portrait of the reference person, 100 percent faithful facial identity retention maintaining exact craniofacial bone structure, distinctive eye contours, nose bridge, jawline, and natural warm skin tone of the reference person with zero facial drift. The subject is posed in an elegant relaxed stance, natural casual weight shift, relaxed dropped shoulders, hands resting gracefully with natural anatomically correct fingers, quiet confident friendly expression. Authentically rendered micro-pore definition, soft sub-surface scattering skin glow, zero plastic smoothing. Placed naturally within modern minimalist architectural studio environment, soft ambient daylight filtering from large side window combined with diffused studio fill, grounded with realistic soft contact drop shadow beneath footwear on floor, captured on Hasselblad H6D-100c medium format camera with 85mm lens at f/5.6 for tack-sharp front-to-back optical clarity, genuine high-end editorial lifestyle lookbook standard, real camera photograph, zero plastic sheen, no CGI slop --style raw --c 1 --s 65 --seed 38192044
+> ⚠️ **MANDAT WAJIB IMAGE REFERENCE:**
+> DILARANG meng-generate dari teks mentah (*text-to-image from scratch*). Prompt ini WAJIB dijalankan dalam mode **Image-to-Image / Reference Binding** dengan melampirkan foto asli yang di-input pengguna.
+
+---
+
+## 🎯 POSITIVE PROMPT SIAP PAKAI (MIDJOURNEY v6.1 - IMAGE-TO-IMAGE)
+```text
+[URL_FOTO_REFERENSI_USER] relaxed commercial lifestyle studio portrait of the input reference person, 100 percent faithful facial identity retention maintaining exact craniofacial bone structure, distinctive eye contours, nose bridge, jawline, and natural warm skin tone of the reference person with zero facial drift. The subject is posed in an elegant relaxed stance, natural casual weight shift, relaxed dropped shoulders, hands resting gracefully with natural anatomically correct fingers, quiet confident friendly expression. Authentically rendered micro-pore definition, soft sub-surface scattering skin glow, zero plastic smoothing. Placed naturally within modern minimalist architectural studio environment, soft ambient daylight filtering from large side window combined with diffused studio fill, grounded with realistic soft contact drop shadow beneath footwear on floor, captured on Hasselblad H6D-100c medium format camera with 85mm lens at f/5.6 for tack-sharp front-to-back optical clarity, genuine high-end editorial lifestyle lookbook standard, real camera photograph, zero plastic sheen, no CGI slop --cref [URL_FOTO_REFERENSI_USER] --cw 0 --style raw --c 1 --s 65 --seed 38192044
+```
+
+> **💡 PANDUAN NILAI `--cw`:**
+> - Parameter `--cw 0` mengunci wajah 100% identik dari foto input, namun membebaskan badan dan pakaian untuk mengikuti pose santai baru.
+> - Jika ingin tetap mempertahankan pakaian asli dari foto referensi, ubah menjadi `--cw 100`.
 
 ---
 
@@ -15,19 +26,19 @@ altered facial features, modified facial structure, different person, facial mor
 ---
 
 ## ⚙️ SEED & PARAMETERS
-Seed: 38192044
-Style: --style raw
-Chaos: --c 1
-Stylize: --s 65
-
-> **💡 CARA MERANGKAI KOMBO MODULAR (DRAG & DROP):**
-> 1. **Kunci Wajah:** Tambahkan parameter di ujung prompt:
->    `--cref URL_FOTO_ORANG_ASLI --cw 0`
->    *(Parameter `--cw 0` mengunci wajah 100% identik, namun membebaskan badan dan pakaian untuk mengikuti pose santai baru).*
-> 2. **Kustomisasi Latar Belakang:** Ganti frasa latar di atas dengan salah satu template dari folder `06_BACKGROUND_TEMPAT_LOKASI` (misal: Cafe Malang, Villa Bali, atau Loft Industrial).
-> 3. **Kustomisasi Pose:** Ganti frasa pose di atas dengan salah satu template dari folder `03_TEMPLATES_POSE` (misal: Duduk Kursi Studio Elegan atau Duduk Santai di Lantai).
+- **Image Input Slot:** `[URL_FOTO_REFERENSI_USER]` (Wajib disematkan di awal)
+- **Character Reference:** `--cref [URL_FOTO_REFERENSI_USER]`
+- **Character Weight:** `--cw 0` (pose santai baru) atau `--cw 100` (pakaian asli)
+- **Seed:** `38192044`
+- **Style:** `--style raw`
+- **Chaos:** `--c 1`
+- **Stylize:** `--s 65`
 
 ---
 
-## ⚡ FLUX.1 COMPANION (NATURAL SPATIAL PROSE)
-A relaxed commercial lifestyle studio portrait of the exact person in the reference image. The subject's craniofacial structure, eyes, nose, facial proportions, and authentic skin texture are preserved with 100 percent fidelity. The subject adopts a relaxed natural posture with dropped shoulders and relaxed hands, looking warmly toward the lens. The setting is a clean modern minimalist architectural interior with soft window daylight entering from the side and gentle fill lighting. The subject is firmly grounded on the floor with natural soft contact shadows beneath their footwear. Shot on a medium format camera with an 85mm lens at f/5.6 for crisp detail from facial features to clothing drape. Real camera photograph, zero plastic smoothing.
+## ⚡ FLUX.1 COMPANION (IMAGE-TO-IMAGE / CONDITIONED POSE)
+```text
+[INPUT: REFERENCE_IMAGE_1 (MANDATORY ATTACHED PHOTO)]
+A relaxed commercial lifestyle studio portrait of the exact person in the attached reference image. The subject's craniofacial structure, eyes, nose, facial proportions, and authentic skin texture are preserved with 100 percent fidelity. The subject adopts a relaxed natural posture with dropped shoulders and relaxed hands, looking warmly toward the lens. The setting is a clean modern minimalist architectural interior with soft window daylight entering from the side and gentle fill lighting. The subject is firmly grounded on the floor with natural soft contact shadows beneath their footwear. Shot on a medium format camera with an 85mm lens at f/5.6 for crisp detail from facial features to clothing drape. Real camera photograph, zero plastic smoothing.
+```
+

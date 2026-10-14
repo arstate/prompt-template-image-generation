@@ -9,6 +9,9 @@ Alih-alih mengunci atribut secara statis (*hardcoded* seperti menyebut jenis baj
 
 Template ini **100% UNIVERSAL**: dapat dipakai untuk foto pria, wanita, kasual, formal, berkacamata, maupun tanpa kacamata tanpa mengedit isi prompt.
 
+> 🚨 **MANDAT WAJIB LAMPIRKAN FOTO INPUT USER:**
+> Prompt ini adalah instruksi rekonstruksi **Image-to-Image Multimodal**. **DILARANG** menjalankan prompt ini sebagai teks mentah tanpa melampirkan foto orang asli yang di-input pengguna. AI wajib memperlakukan file foto terlampir sebagai referensi absolut tunggal (*ground truth*).
+
 ---
 
 ## 🎯 MASTER UNIVERSAL PROMPT (ENGLISH - DIRECT INPUT)
